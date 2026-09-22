@@ -43,3 +43,18 @@ daqui tem 2 tópicos
 
 Desses tópicos vamos derivar o grafo de recomendação usando Neo4J
 Todos os posts também vão ser indexados num elasticsearch pra pesquisa
+
+Acho que faz sentido começar a desenvolver pelos serviços que vão usar essas funções
+Tô tendenciosa a começar pelo serviço de sign-up
+Acho que uma ordem apropriada pra seguir depois seria
+sign-in
+Follow/unfollow
+Ler feed
+Full-text search
+recommendations
+
+Tô chamando eles de serviços mas não é exatamente assim que eles funcionam
+Principalmente pelo fato de que eu sou uma desenvolvedora solo e o próprio conceito de microserviços
+perde o sentido quando você perde o conceito de equipes responsáveis por partes do dominio
+Essas divisões também são pequenas demais para serem serviços, elas são features, talvez tenha 
+uns 3 ou 4 serviços aí na pratica
